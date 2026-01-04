@@ -6,6 +6,8 @@
 *.key
 *.asc
 *.gpg
+*.pem
+*.base64   
 
 # Decrypted/unencrypted secrets (temporary or local)
 *.secret
