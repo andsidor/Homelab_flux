@@ -1,0 +1,69 @@
+# ===================================
+# SOPS / Secret Files
+# ===================================
+
+# Local SOPS keys (never commit your private keys)
+*.key
+*.asc
+*.gpg
+
+# Decrypted/unencrypted secrets (temporary or local)
+*.secret
+*.unencrypted
+*.dec.yaml
+*.dec.yml
+
+# Optional: backup of decrypted secrets
+*.bak.yaml
+*.bak.yml
+
+# ===================================
+# Kubernetes / Helm / Kustomize
+# ===================================
+
+# Helm charts and generated packages
+charts/
+*.tgz
+
+# Kustomize build output (generated YAML)
+kustomize-build/
+kustomize-out/
+
+# Terraform state files (if using Terraform for infra)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# ===================================
+# Environment-specific files
+# ===================================
+
+# Local overrides (if you have dev/staging/prod folders with local configs)
+**/env/*.local.yaml
+**/env/*.local.yml
+
+# ===================================
+# IDE / Editor
+# ===================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===================================
+# OS Files
+# ===================================
+
+.DS_Store
+Thumbs.db
+
+# ===================================
+# Logs / Temp / Cache
+# ===================================
+
+*.log
+tmp/
+*.tmp
+.cache/
+
