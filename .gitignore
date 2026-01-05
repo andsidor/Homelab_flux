@@ -11,12 +11,13 @@
 
 # Decrypted/unencrypted secrets (temporary or local)
 *.secret
+*.secret.yaml
 *.unencrypted
 *.dec.yaml
 *.dec.yml
 .sops1.yaml
 *secrett.yaml   
-*key.txt
+*key*.txt
 
 # Optional: backup of decrypted secrets
 *.bak.yaml
