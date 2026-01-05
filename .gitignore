@@ -14,7 +14,7 @@
 *.unencrypted
 *.dec.yaml
 *.dec.yml
-.sops.yaml
+.sops1.yaml
 
 # Optional: backup of decrypted secrets
 *.bak.yaml
