@@ -15,6 +15,7 @@
 *.dec.yaml
 *.dec.yml
 .sops1.yaml
+*secrett.yaml   
 
 # Optional: backup of decrypted secrets
 *.bak.yaml
