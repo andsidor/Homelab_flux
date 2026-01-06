@@ -1,5 +1,5 @@
 creation_rules: 
-# public key: age1q285lp9dv2u0cdsr2feh4mth8yuv6g6cm4agcp69vly25p5nyqysm7dhz4
-  - age: "age1q285lp9dv2u0cdsr2feh4mth8yuv6g6cm4agcp69vly25p5nyqysm7dhz4"
+# public key2: age1q285lp9dv2u0cdsr2feh4mth8yuv6g6cm4agcp69vly25p5nyqysm7dhz4
+  - age: "age1jll280n37rtzwrzmy9mnpcc0acw5fzdvt9t3t46v85e5kcceagqqjrmqxy"
     encrypted_regex: "^(data|stringData|secret|secureJsonData)$"
     path_regex: ".*.yaml$"
