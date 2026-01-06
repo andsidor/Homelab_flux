@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Secret
+metadata:
+    name: cloudflare-tunnel-credentials
+    namespace: flux-system
+type: Opaque
+stringData:
+    token: ENC[AES256_GCM,data:R4oODHo1U6U5OPukQ9kWk+acMEPnn9yCyYEbHau3K+xwgpXu3OdjUgYj4jPgt7wC2HgInUvwcjNKtxmucuskrQwopvB8CKsgJ6BwU502OqBDY1piq60qjwiePEol8g5VC4ANH4jopoIvS0xIATKYkZMvSwe1qzUlO74Da1uZ9kyMTUNsguzEBgECS5PIP+c4EiIp5/HP8NYnDXgbE+2Ru6wE1Sz+6x+RVtuGl74Sa37OpQALBM7kKw==,iv:0uxdcPd+LkHdcK0dEdVhlA1lUYRQj+7yXyvpVCserNY=,tag:PaLeM9dNbd8uOu9KK3vkPA==,type:str]
+sops:
+    lastmodified: "2026-01-06T22:43:13Z"
+    mac: ENC[AES256_GCM,data:3Y9xgubx9m1v4cXZjgJvLryxOJg3I1x7zQmNII2zpxpp/1L/QrSGGLulzT+WiMm1sDHDhj8MqbMbqNxZVIdUs8XgdN1toZiGMIXa7gzs3MUvVZyYJ+aUZ4V7YvlkFiXbS5nt1iDXHYOCmN4IJLNO2F6KI0CpAiKlFuGOcRErHvc=,iv:T8LVyywNoL/Y6sYrvBSl3yRUDv0SULxqtQjFnNFsIvA=,tag:m1B9XAd32clJ2MqjR603dw==,type:str]
+    pgp:
+        - created_at: "2026-01-06T22:43:13Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hQIMAzWX1hCBNfUtAQ//a6G9ZeXj0JQ6xDCe/k6OHzJJ9an1JkDEl5Xzw1jA7kt4
+            NIIld5l+V3InckZAglyIexWKtUyyD98eG8AxpJNANrdDh9nPvqAZXGpgZGSNWzK4
+            Ny51DkdSwcyv42aEvvfAWaZOQeIhLed3mMnCfhqVH6bHTPiSJ+W8DbHGrW1TMIaH
+            z69xt+Wgpt2b2HY3kmCtz19HVYS9nVQO3bwZpgG2fAphyJ/9HBzS8QGUhSQflgin
+            H6sDn0BGcMAnPu7o7ehsXfEvXebCT/nXYJ0lUzE2bpaBS62Tt00/D97v+Ccs8PIU
+            wWuTQGrIrEGIiUkogjIHPcbHkhv/QJ1iJqQ9R2tzlz4g3q/QhekgIyDT+xLHIMhR
+            FJLw9Yd2NBIp1g+qagb1bEBfyMvgWgC1ENa37am6JpX1O8hG1BNSWyyzK3hGOWVJ
+            fJ3t1za9FKIBKiPbCTVSWeUEhm6SlkGMbeGhMElDi/JmEqbzrAoUtLDgqpN7fRkN
+            3fUviDrcN6SjRSBcl+VbTywlRTRGBkDHNUqThnfN12NMVcAsWw4Kjg1JIYfAPrbF
+            PC7GRrG0J5uts9u3XWwF4b3MMglu23XwDDs2NAuqKcmxlPelQkBMN2aEoguu0+HV
+            AmYxnlbtbP2TfmjXNBfhsu5PK45hf3BIhWfK3pQxcvdUe12ssypa7aiiVrLwJs/U
+            aAEJAhAKi7tTmT6DKjRp0FhYXB8zQ5s2p4k6QxPFJqyRlDzpfjkwOSuyT040JFVS
+            SdvrPpFV9Vnq6i1AbPpI21HYepKpySfATQEcGyS5Tgt+N1aCaaRfdkwyJIv6OXUy
+            c8MYBbYa9/WN
+            =Kk5Q
+            -----END PGP MESSAGE-----
+          fp: E9EA33513F79F063AC3B339F6A27A98FEED3CD75
+    encrypted_regex: ^(data|stringData|secret|secureJsonData)$
+    version: 3.11.0
