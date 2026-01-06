@@ -22,7 +22,7 @@ spec:
   decryption:
     provider: sops
     secretRef:
-      name: sops-age
+      name: sops-pgp
   interval: 1m0s
   path: ./clusters/my-cluster
   prune: true
